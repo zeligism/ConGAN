@@ -1,22 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T07:41:35.898Z" agent="5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Mobile/15E148 Safari/604.1" etag="VwwRhpz4sueAa0-2Nql_" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-04T07:46:16.031Z" agent="5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Mobile/15E148 Safari/604.1" etag="-6Aq9kHxR-Jrp1hPjAs5" version="15.9.1" type="github">
   <diagram id="gDvHSHzV4V5JSUyH6So2" name="Page-1">
-    <mxGraphModel dx="1160" dy="1766" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="985" dy="1451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EcomKPYz1qMSkuypApzM-2" value="D_h" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="58" y="288.5" width="79" height="45.5" as="geometry" />
-        </mxCell>
         <mxCell id="EcomKPYz1qMSkuypApzM-3" value="G" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-13" y="-38" width="80" height="52" as="geometry" />
         </mxCell>
         <mxCell id="EcomKPYz1qMSkuypApzM-4" value="Dataset" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="23" y="93" width="130" height="100" as="geometry" />
+          <mxGeometry x="32" y="38" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EcomKPYz1qMSkuypApzM-5" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EcomKPYz1qMSkuypApzM-4">
+        <mxCell id="EcomKPYz1qMSkuypApzM-5" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EcomKPYz1qMSkuypApzM-4" target="EcomKPYz1qMSkuypApzM-2">
           <mxGeometry width="120" relative="1" as="geometry">
             <mxPoint x="166" y="276" as="sourcePoint" />
-            <mxPoint x="89" y="291" as="targetPoint" />
+            <mxPoint x="97" y="192" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -34,7 +31,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EcomKPYz1qMSkuypApzM-22" value="Q" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="71.5" y="406" width="52" height="51" as="geometry" />
+          <mxGeometry x="53" y="261" width="52" height="51" as="geometry" />
         </mxCell>
         <mxCell id="EcomKPYz1qMSkuypApzM-28" value="L_G" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="346" y="45.5" width="77" height="64.5" as="geometry" />
@@ -47,17 +44,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EcomKPYz1qMSkuypApzM-30" value="L_adv" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-119" y="110" width="89" height="59" as="geometry" />
+          <mxGeometry x="-40" y="378" width="89" height="59" as="geometry" />
         </mxCell>
         <mxCell id="EcomKPYz1qMSkuypApzM-31" value="Linear" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-115.5" y="281" width="82" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="EcomKPYz1qMSkuypApzM-35" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EcomKPYz1qMSkuypApzM-3" target="EcomKPYz1qMSkuypApzM-30">
-          <mxGeometry width="120" relative="1" as="geometry">
-            <mxPoint x="270" y="264" as="sourcePoint" />
-            <mxPoint x="-153" y="216" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
+          <mxGeometry x="-70" y="261" width="82" height="59" as="geometry" />
         </mxCell>
         <mxCell id="EcomKPYz1qMSkuypApzM-38" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EcomKPYz1qMSkuypApzM-22" target="EcomKPYz1qMSkuypApzM-36">
           <mxGeometry width="120" relative="1" as="geometry">
@@ -80,13 +70,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EcomKPYz1qMSkuypApzM-49" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" parent="1" source="EcomKPYz1qMSkuypApzM-31" target="EcomKPYz1qMSkuypApzM-30">
-          <mxGeometry width="120" relative="1" as="geometry">
-            <mxPoint x="-65" y="324" as="sourcePoint" />
-            <mxPoint x="-127" y="191" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="EcomKPYz1qMSkuypApzM-50" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EcomKPYz1qMSkuypApzM-6" target="EcomKPYz1qMSkuypApzM-3">
           <mxGeometry width="120" relative="1" as="geometry">
             <mxPoint x="64" y="203" as="sourcePoint" />
@@ -95,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EcomKPYz1qMSkuypApzM-36" value="L_Q" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="212.5" y="406" width="79" height="58" as="geometry" />
+          <mxGeometry x="182" y="210.5" width="79" height="58" as="geometry" />
         </mxCell>
         <mxCell id="EcomKPYz1qMSkuypApzM-53" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EcomKPYz1qMSkuypApzM-8" target="EcomKPYz1qMSkuypApzM-36">
           <mxGeometry width="120" relative="1" as="geometry">
@@ -104,10 +87,27 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EcomKPYz1qMSkuypApzM-54" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EcomKPYz1qMSkuypApzM-2" target="EcomKPYz1qMSkuypApzM-31">
+        <mxCell id="EcomKPYz1qMSkuypApzM-54" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EcomKPYz1qMSkuypApzM-2" target="EcomKPYz1qMSkuypApzM-31">
           <mxGeometry width="120" relative="1" as="geometry">
             <mxPoint x="-30" y="425" as="sourcePoint" />
             <mxPoint x="90" y="425" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EcomKPYz1qMSkuypApzM-2" value="D_h" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="165" width="79" height="45.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EcomKPYz1qMSkuypApzM-56" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EcomKPYz1qMSkuypApzM-3" target="EcomKPYz1qMSkuypApzM-2">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="27.000000000000114" y="14" as="sourcePoint" />
+            <mxPoint x="78" y="292" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EcomKPYz1qMSkuypApzM-57" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EcomKPYz1qMSkuypApzM-31" target="EcomKPYz1qMSkuypApzM-30">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="-119" y="145" as="sourcePoint" />
+            <mxPoint x="1" y="145" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
