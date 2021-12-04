@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T07:32:06.448Z" agent="5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Mobile/15E148 Safari/604.1" etag="_Uu0WofzV6gllTJGGRmN" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-04T07:32:47.551Z" agent="5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Mobile/15E148 Safari/604.1" etag="GsI4SkHmiYJ0508GI4wr" version="15.9.1" type="github">
   <diagram id="gDvHSHzV4V5JSUyH6So2" name="Page-1">
-    <mxGraphModel dx="585" dy="1051" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="543" dy="976" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,13 +61,6 @@
           <mxGeometry width="120" relative="1" as="geometry">
             <mxPoint x="179" y="364" as="sourcePoint" />
             <mxPoint x="299" y="364" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EcomKPYz1qMSkuypApzM-27" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EcomKPYz1qMSkuypApzM-3" target="EcomKPYz1qMSkuypApzM-28">
-          <mxGeometry width="120" relative="1" as="geometry">
-            <mxPoint x="179" y="364" as="sourcePoint" />
-            <mxPoint x="340" y="316" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
