@@ -11,5 +11,23 @@
 ## Introduction
 
 
+## Dependencies
+* Ubuntu based machine with NVIDIA GPU or GoogleColab is required to run the training and evaluation.
+* Python 3.8.
+* Pytorch 1.10.0+cu111 and corresponding torchvision version.
+
+## Installation
+It is recommended to create a new conda environment for this project. The installation steps are as follows:
+1. Create new conda environment and activate it.
+```bash
+$ conda create --name=gansiam python=3.8
+$ conda activate gansiam
+```
+2. Install requirements as,
+```bash
+$ pip install -r requirements.txt
+```
+
+
 
 
