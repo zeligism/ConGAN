@@ -12,9 +12,9 @@
 The repository contains the implementation of improving latent space of GANs. In this project, we are combining three learning paradigms: generative learning,
 contrastive learning, and generative-contrastive learning. Our main objective is to train GAN to learn disentangled representations.
 ### Proposed Framework 1:
-In the first proposed framework, we combined GANs, SimSam Network and Autoenconder. The architecture of proposed framework is shown in [Figure](https://github.com/zeligism/ConGAN/tree/main/Architecture).
+In the first proposed framework, we combined GANs, SimSam Network and Autoenconder. The architecture of proposed framework is shown in [Figure](https://github.com/zeligism/ConGAN/blob/main/Architecture/Proposed_FrameWork_1.png).
 ### Proposed Framework 2:
-In the second proposed framework, we used Info-GAN with spectral normalization and condition it using the representation from SimSam Network. The architecture of proposed framework is shown in [Figure](https://github.com/zeligism/ConGAN/tree/main/Architecture).
+In the second proposed framework, we used Info-GAN with spectral normalization and condition it using the representation from SimSam Network. The architecture of proposed framework is shown in [Figure](https://github.com/zeligism/ConGAN/blob/main/Architecture/Proposed_FrameWork_2.png).
 
 ## Dependencies
 * Ubuntu based machine with NVIDIA GPU or GoogleColab is required to run the training and evaluation.
