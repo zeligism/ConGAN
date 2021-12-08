@@ -26,14 +26,13 @@ The second framework performs better, we use it to run the experiment and compil
 It is recommended to create a new conda environment for this project. The installation steps are as follows:
 1. Create new conda environment and activate it.
 ```bash
-$ conda create --name=gansiam python=3.8
-$ conda activate gansiam
+$ conda create --name=ConGAN python=3.8
+$ conda activate ConGAN
 ```
 2. Install requirements as,
 ```bash
 $ pip install -r requirements.txt
 ```
-
 ## Training Model from Strach
 For training the model from strach for this project, it is recommended to follow the following steps:
 1. Create the new folder name **gansiam** in your machine.
@@ -41,6 +40,9 @@ For training the model from strach for this project, it is recommended to follow
 3. Download the pretrained model of SimSam network with 256 batch size and 100 epoches from this [link](https://github.com/facebookresearch/simsiam).
 4. Put the pretrained model in your gansiam folder and rename as: **pretrained_batch256.tar**.
 5. Change the path of **GANSIAM_DIR** it [jupyter notebook](https://github.com/zeligism/ConGAN/blob/main/ConsistentGAN.ipynb) with the path of your folder **gansiam**.
+
+## Evaluating the pretrained-model
+
 
 
 
