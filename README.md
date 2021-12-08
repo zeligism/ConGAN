@@ -49,6 +49,6 @@ For training the model from strach for this project, it is recommended to follow
 ## Evaluating the pretrained-model
 
 
-
-
+## Contact
+Should you have any question, please create an issue on this repository or contact at Abdulla.Almansoori@mbzuai.ac.ae, Talal.Algumaei@mbzuai.ac.ae, Muhammad.Sharif@mbzuai.ac.ae
 
