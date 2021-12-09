@@ -52,7 +52,7 @@ For training the model from strach for this project, it is recommended to follow
 ### Experimental Settings
 All the experiments are performed on CIFAR-10 and tiny imagenet datasets with the different parameter settings.
 <img src="results/Experimental_settings.png" style="display:block;float:none;margin-left:50;margin-right:50;width:100%">
-
+<img src="results/Experiment_result.jpg" style="display:block;float:none;margin-left:50;margin-right:50;width:100%">
 
 
 ## Contact
