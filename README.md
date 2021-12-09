@@ -9,46 +9,56 @@
 [![PWC](https://img.shields.io/badge/State--of--the--Art-Exploring--Simple--Siamese--Representation-green?style=plastic&logo=flat)](https://paperswithcode.com/paper/exploring-simple-siamese-representation)
 
 ## Introduction
-The repository contains the implementation of improving latent space of GANs. In this project, we are combining three learning paradigms: generative learning,
+The repository contains the implementation of "Improving Latent Space of GANs". In this project, we are combining three learning paradigms: generative learning,
 contrastive learning, and generative-contrastive learning. Our main objective is to train GAN to learn disentangled representations. For that purpose, we proposed two frameworks.
 ### Proposed Framework 1:
 In the first proposed framework, we combined GANs, SimSam Network and Autoenconder. The architecture of proposed framework is shown as: 
 
 <img src="Architecture/Proposed_FrameWork_1.png" style="display:block;float:none;margin-left:50;margin-right:50;width:60%">
 
+The limitations we faced from this design made us rethink the framework, which led us to the second framework detailed below.
+
 ### Proposed Framework 2:
-In the second proposed framework, we used Info-GAN with spectral normalization and condition it using the representation from SimSam Network. The architecture of proposed framework is shown as:
+In the second proposed framework, we used an AC-GAN-style training algorithm for conditioning the generator on the representations from SimSiam. The model design is as follows:
 
 <img src="Architecture/Proposed_FrameWork_2.jpg" style="display:block;float:none;margin-left:50;margin-right:50;width:80%">
-The second framework performs better, we use it to run the experiment and compile the results.
+The second framework performs more closely to our expectations, so we ran most of our experiments using it.
 
 ## Dependencies
-* Ubuntu based machine with NVIDIA GPU or GoogleColab is required to run the training and evaluation.
+* Ubuntu based machine with NVIDIA GPU or Google Colab is recommended for running the training and evaluation script.
 * Python 3.8.
-* Pytorch 1.10.0+cu111 and corresponding torchvision version.
+* Pytorch 1.10.0 and corresponding torchvision version.
 
 ## Installation
-It is recommended to create a new conda environment for this project. The installation steps are as follows:
-1. Create new conda environment and activate it.
+We recommend creating a conda environment when not using Google Colab. The installation steps are as follows:
 ```bash
-$ conda create --name=ConGAN python=3.8
+$ conda create -n ConGAN python=3.8
 $ conda activate ConGAN
-```
-2. Install requirements as,
-```bash
 $ pip install -r requirements.txt
 ```
-## Training Model from Strach
-For training the model from strach for this project, it is recommended to follow the following steps:
-1. Create the new folder name **gansiam** in your machine.
-2. Extract all files of this repository in **gansiam** folder.
-3. Download the pretrained model of SimSam network with 256 batch size and 100 epoches from this [link](https://github.com/facebookresearch/simsiam).
-4. Put the pretrained model in your gansiam folder and rename as: **pretrained_batch256.tar**.
-5. Change the path of **GANSIAM_DIR** it [jupyter notebook](https://github.com/zeligism/ConGAN/blob/main/ConsistentGAN.ipynb) with the path of your folder **gansiam**.
 
-## Evaluating the pretrained-model
+## Training the Model from Scratch
+Steps for training the model from scratch:
+1. Download the desired pretrained SimSiam model from this [link](https://github.com/facebookresearch/simsiam).
+2. Specify the path to the pretrained model and the main directory in the "Header/Imports" section.
+3. Run the cells until "Training/Args" section.
+4. Specify the arguments and hyperparameters for your experiment.
+5. Run the cells until "Training/Run".
+6. Define your training run. For example, you can save the model every 5 epochs, or you might want to increase some hyperparameter linearly every epoch.
+7. Run the experiment for the desired number of epochs.
+8. Check generator's performance for a variety of representation sampling methods in the "Training/Results" section.
+9. Evaluate the performance of the generator by running the cells in the "GAN Metrics" section.
 
-## Results
+## Path to Pretrained Models
+We provide links to download the model components for two experiment runs:
+1. We set the consistency coefficients initially set to 0, then 0.1 after 30 epochs, then 1.0 after 30 epochs, and then trained for 30 epochs more (total 90 epochs).
+2. Consistency coefficients set to 0 and the generator is not conditioned on the representation. In other words, we train the same architecture using without conditioning.
+
+We report the results and links for downloading the model components in the following table:
+
+*Coming soon...*
+
+
 ### Experimental Settings
 All the experiments are performed on CIFAR-10 and tiny imagenet datasets with the different parameter settings.
 <img src="results/Experimental_settings.png" style="display:block;float:none;margin-left:50;margin-right:50;width:100%">
