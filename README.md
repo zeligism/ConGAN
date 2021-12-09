@@ -48,6 +48,12 @@ For training the model from strach for this project, it is recommended to follow
 
 ## Evaluating the pretrained-model
 
+## Results
+### Experimental Settings
+All the experiments are performed on CIFAR-10 and tiny imagenet datasets with the different parameter settings.
+<img src="results/Experimental_settings.png" style="display:block;float:none;margin-left:50;margin-right:50;width:100%">
+
+
 
 ## Contact
 Should you have any question, please contact at Abdulla.Almansoori@mbzuai.ac.ae, Talal.Algumaei@mbzuai.ac.ae, Muhammad.Sharif@mbzuai.ac.ae
