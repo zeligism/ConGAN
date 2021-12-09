@@ -56,7 +56,17 @@ We provide links to download the model components for two experiment runs:
 
 We report the results and links for downloading the model components in the following table:
 
-*Coming soon...*
+| Run | IS   | FID   | model.pth.tar  | latent_transform.pth.tar | Q.pth.tar  |
+| --- | ---- | ----- | -------------- | ------------------------ | ---------- |
+| 1   | 5.86 | 67.74 | [link][model1] | [link][lt1]              | [link][q1] |
+| 2   | 5.44 | 72.23 | [link][model2] | [link][lt2]              | [link][q2] |
+
+[model1]: https://drive.google.com/file/d/1FUyZ3dotgrsR9Lr_dKqU9hOn1mU7Gntr/view?usp=sharing
+[lt1]: https://drive.google.com/file/d/1TTH0S8s-cqJsQDaQIh27VfK9FsI78gP5/view?usp=sharing
+[q1]: https://drive.google.com/file/d/1WHKjDVeNORxKwdEay_0gg6NPjF6wra4B/view?usp=sharing
+[model2]: https://drive.google.com/file/d/1k_ftsFRsCUaOcVhi2y6TOlZAnQ118MDG/view?usp=sharing
+[lt2]: https://drive.google.com/file/d/15OTGryu3EzMQPCVziuqS6yOmHgzEBBRu/view?usp=sharing
+[q2]: https://drive.google.com/file/d/1Vvy9gR6l7ySs4xxgwti66A9G7znz7_fv/view?usp=sharing
 
 
 ### Experimental Settings
